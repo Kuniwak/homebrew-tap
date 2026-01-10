@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-homebrew-tap)",
+      "WebFetch(domain:github.com)",
+      "Bash(gh release view:*)",
+      "Bash(gh release:*)"
+    ]
+  }
+}
