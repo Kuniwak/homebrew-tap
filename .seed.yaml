@@ -1,0 +1,18 @@
+# This file is seed for generating the Homebrew tap.
+# - tap_repository is the repository of the Homebrew tap.
+# - tap_repository.url is the repository URL of the Homebrew tap.
+# - tap_repository.license is the license of the Homebrew tap.
+# - target_projects is a list of projects to be installed.
+# - target_projects.name is the name of the project.
+# - target_projects.url is the repository URL of the project.
+
+tap_repository:
+  url: https://github.com/Kuniwak/tap
+  license: MIT
+
+target_projects:
+  - name: ai-cli-tools
+    url: https://github.com/Kuniwak/ai-cli-tools
+    
+  - name: pfd-tools
+    url: https://github.com/Kuniwak/pfd-tools
