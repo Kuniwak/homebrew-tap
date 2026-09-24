@@ -16,3 +16,6 @@ target_projects:
     
   - name: pfd-tools
     url: https://github.com/Kuniwak/pfd-tools
+
+  - name: puml-tools
+    url: https://github.com/Kuniwak/puml-tools
