@@ -36,6 +36,11 @@ class PfdTools < Formula
     bin.install "plantimeline"
     bin.install "holidays"
     bin.install "criticalpath"
+    bin.install "pfdrun"
+    bin.install "pfdparse"
+    bin.install "pfdrungraph"
+    bin.install "pfddot"
+    bin.install "pfddeadlock"
   end
 
   test do
