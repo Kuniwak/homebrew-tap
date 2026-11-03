@@ -19,3 +19,6 @@ target_projects:
 
   - name: puml-tools
     url: https://github.com/Kuniwak/puml-tools
+
+  - name: puml-parallel
+    url: https://github.com/Kuniwak/puml-parallel
