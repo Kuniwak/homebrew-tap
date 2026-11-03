@@ -1,26 +1,26 @@
 class PumlParallel < Formula
   desc "A tool for composing PlantUML state diagrams in parallel with synchronization events (CSP interface parallel)"
   homepage "https://github.com/Kuniwak/puml-parallel"
-  version "3.9.0"
+  version "3.10.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Kuniwak/puml-parallel/releases/download/v3.9.0/csdfparallel_3.9.0_darwin_arm64.tar.gz"
-      sha256 "7aca70c7191305b4506d04682233ab2824795bcdf057debbc83cc82a2c1f5955"
+      url "https://github.com/Kuniwak/puml-parallel/releases/download/v3.10.0/csdfparallel_3.10.0_darwin_arm64.tar.gz"
+      sha256 "63c65cc58d77d29226f8bfde9b9957e962916d144d08dfa05994c481dadfa9a1"
     else
-      url "https://github.com/Kuniwak/puml-parallel/releases/download/v3.9.0/csdfparallel_3.9.0_darwin_amd64.tar.gz"
-      sha256 "a3c7320464eb950a8f73993b9924329941932b5658e92d8a791301a2829f47ee"
+      url "https://github.com/Kuniwak/puml-parallel/releases/download/v3.10.0/csdfparallel_3.10.0_darwin_amd64.tar.gz"
+      sha256 "f3d7f936dc40ea1af7213f70e12d4ec1ca08c131c1dbd4fa3e23bc73e131b883"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Kuniwak/puml-parallel/releases/download/v3.9.0/csdfparallel_3.9.0_linux_arm64.tar.gz"
-      sha256 "b91449d85a6fccff7c78e73d4ec9929092a249387580f985c09035944280d654"
+      url "https://github.com/Kuniwak/puml-parallel/releases/download/v3.10.0/csdfparallel_3.10.0_linux_arm64.tar.gz"
+      sha256 "792aeb28b46f884233d2af78e3cb502ee0fe00aee6048bd94470addc62b317c2"
     else
-      url "https://github.com/Kuniwak/puml-parallel/releases/download/v3.9.0/csdfparallel_3.9.0_linux_amd64.tar.gz"
-      sha256 "fc652735d83f3af0bd1db8322d150134ac146ab95a12c52b26ce9b45b4874726"
+      url "https://github.com/Kuniwak/puml-parallel/releases/download/v3.10.0/csdfparallel_3.10.0_linux_amd64.tar.gz"
+      sha256 "cd084411acb010710aa074026a51d9d99cc1b87325e25193ac6d9b2fee9ccfa1"
     end
   end
 
