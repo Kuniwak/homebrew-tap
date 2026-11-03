@@ -31,6 +31,15 @@ class AiCliTools < Formula
     bin.install "stdinsub"
   end
 
+  def caveats
+    <<~EOS
+      The examples in the project README use GNU sed and GNU parallel
+      (stdinexec is deprecated in favor of GNU parallel).
+      On macOS, install them with:
+        brew install gnu-sed parallel
+    EOS
+  end
+
   test do
     system "#{bin}/stdinexec", "-v"
   end
